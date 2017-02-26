@@ -20,7 +20,7 @@ The files for this container can be found at my [GitHub repo](https://github.com
 1. Open Bluemix dashboard
 2. Open Containers
 3. Create Container
-4. Select "syncthing-discovery-bluemix"
+4. Select "syncthing-relay-discovery-bluemix"
 5. Setup Public IP
 6. Setup Volume to path: `/home/syncthing/certs`
 
