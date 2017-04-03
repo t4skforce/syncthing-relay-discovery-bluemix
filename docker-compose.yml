@@ -1,10 +1,10 @@
 version: '2'
 services:
   syncthing-relay-discovery:
-    image: rdissertori/docker-syncthing-relay-discovery
+    image: rdissertori/syncthing-relay-discovery-bluemix
     container_name: syncthing-relay-discovery
     volumes:
-      - /home/roman/certs/:/home/syncthing/certs/:ro
+      - ./certs/:/home/syncthing/certs/:ro
     ports:
       - "22067:22067"
       - "22026:22026"
