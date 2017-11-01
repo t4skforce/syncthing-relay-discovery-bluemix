@@ -1,4 +1,4 @@
-FROM rdissertori/docker-syncthing-relay-discovery:latest
+FROM t4skforce/syncthing-relay-discovery:latest
 
 # 1000 mbps
 ENV RATE_GLOBAL     1000000000
