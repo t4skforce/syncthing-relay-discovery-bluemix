@@ -1,7 +1,7 @@
 version: '2'
 services:
   syncthing-relay-discovery:
-    image: rdissertori/syncthing-relay-discovery-bluemix
+    image: t4skforce/syncthing-relay-discovery-bluemix:latest
     container_name: syncthing-relay-discovery
     volumes:
       - ./certs/:/home/syncthing/certs/:ro
